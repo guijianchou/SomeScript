@@ -1,0 +1,50 @@
+win11_store_optimize
+
+based on windows 11  21h1 enterprise VOL
+
+UWP store apps:
+
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+Get-AppxPackage -allusers *bing* | Remove-AppxPackage
+Get-AppxPackage -allusers *soundrec* | Remove-AppxPackage
+Get-AppxPackage -allusers *zune* | Remove-AppxPackage
+Get-AppxPackage -allusers *communi* | Remove-AppxPackage
+Get-AppxPackage -allusers *phone* | Remove-AppxPackage
+Get-AppxPackage -allusers *solit* | Remove-AppxPackage
+Get-AppxPackage -allusers *map* | Remove-AppxPackage
+Get-AppxPackage -allusers *feedback* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.Todos* | Remove-AppxPackage
+Get-AppxPackage -allusers *office* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.MicrosoftStickyNotes* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.PowerAutomateDesktop* | Remove-AppxPackage
+Get-AppxPackage -allusers *MicrosoftWindows.Client.WebExperience* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.People* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.WindowsCamera* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.GetHelp* | Remove-AppxPackage
+Get-AppxPackage -allusers *Clipchamp* | Remove-AppxPackage
+
+
+win10_store_optimize
+
+based on windows 10  21h2 enterprise VOL
+
+UWP store apps:
+
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+Get-AppxPackage -allusers *bing* | Remove-AppxPackage
+Get-AppxPackage -allusers *soundrec* | Remove-AppxPackage
+Get-AppxPackage -allusers *zune* | Remove-AppxPackage
+Get-AppxPackage -allusers *communi* | Remove-AppxPackage
+Get-AppxPackage -allusers *phone* | Remove-AppxPackage
+Get-AppxPackage -allusers *solit* | Remove-AppxPackage
+Get-AppxPackage -allusers *map* | Remove-AppxPackage
+Get-AppxPackage -allusers *feedback* | Remove-AppxPackage
+Get-AppxPackage -allusers *office* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.MicrosoftStickyNotes* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.People* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.WindowsCamera* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.GetHelp* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.SkypeApp* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.Microsoft3DViewer* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.MixedReality.Portal* | Remove-AppxPackage
+Get-AppxPackage -allusers *Microsoft.MSPaint* | Remove-AppxPackage
